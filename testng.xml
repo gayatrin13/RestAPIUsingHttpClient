@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RestAPIAutomation">
+	<test name="APIAutomationUsingHTTPClient" parallel="false">
+		<classes>
+			<class name="com.qa.tests.GetAPITest"></class>
+			<class name="com.qa.tests.PostAPITest"></class>
+			<class name="com.qa.tests.PutAPITest"></class>
+			<class name="com.qa.tests.DeleteAPITest"></class>
+			<class name="com.qa.tests.GetAPITest"></class>
+		</classes>
+	</test>
+	<!--	<test name="com.qa.tests.PostAPITest" parallel="false"></test>
+	<test name="com.qa.tests.PutAPITest" parallel="false" ></test>
+	<test name="com.qa.tests.DeleteAPITest" parallel="false"></test>
+
+-->
+
+</suite>
