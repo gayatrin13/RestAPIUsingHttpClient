@@ -31,6 +31,8 @@ public class RestHttpClient {
 
 	public CloseableHttpResponse postAPITest(String url, String entity, HashMap<String, String> headers)
 			throws ClientProtocolException, IOException {
+		System.out.println("RestHttpClient.postAPITest() :" + url);
+
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 		HttpPost postHttp = new HttpPost(url);
 

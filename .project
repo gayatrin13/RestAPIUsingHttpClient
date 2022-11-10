@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>RestAPIAutomationUsingHttpClient</name>
-	<comment></comment>
+	<comment>This project is using HttpClient for testing RestAPIs. The RESTAPI is created using json-server(created json data file and launched using json-server)>> localhost:3000(start local server using  command "json-server info.json" . Reading data from csv using Scanner class in java to post data </comment>
 	<projects>
 	</projects>
 	<buildSpec>

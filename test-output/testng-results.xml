@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-19T19:25:47 PDT" name="RestAPIAutomation" finished-at="2022-09-19T19:25:47 PDT" duration-ms="606">
+  <suite started-at="2022-11-10T11:02:12 PST" name="RestAPIAutomation" finished-at="2022-11-10T11:02:12 PST" duration-ms="596">
     <groups>
     </groups>
-    <test started-at="2022-09-19T19:25:47 PDT" name="APIAutomationUsingHTTPClient" finished-at="2022-09-19T19:25:47 PDT" duration-ms="606">
+    <test started-at="2022-11-10T11:02:12 PST" name="APIAutomationUsingHTTPClient" finished-at="2022-11-10T11:02:12 PST" duration-ms="596">
       <class name="com.qa.tests.PostAPITest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.PostAPITest@123ef382]" started-at="2022-09-19T19:25:47 PDT" name="setUp" finished-at="2022-09-19T19:25:47 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.PostAPITest@384ad17b]" started-at="2022-11-10T11:02:12 PST" name="setUp" finished-at="2022-11-10T11:02:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="postAPITest()[pri:0, instance:com.qa.tests.PostAPITest@123ef382]" started-at="2022-09-19T19:25:47 PDT" name="postAPITest" finished-at="2022-09-19T19:25:47 PDT" duration-ms="222" status="PASS">
+        <test-method signature="postAPITest()[pri:0, instance:com.qa.tests.PostAPITest@384ad17b]" started-at="2022-11-10T11:02:12 PST" name="postAPITest" finished-at="2022-11-10T11:02:12 PST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAPITest -->
       </class> <!-- com.qa.tests.PostAPITest -->
       <class name="com.qa.tests.PutAPITest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.PutAPITest@dbf57b3]" started-at="2022-09-19T19:25:47 PDT" name="setUP" finished-at="2022-09-19T19:25:47 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.PutAPITest@61862a7f]" started-at="2022-11-10T11:02:12 PST" name="setUP" finished-at="2022-11-10T11:02:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="putAPITest()[pri:0, instance:com.qa.tests.PutAPITest@dbf57b3]" started-at="2022-09-19T19:25:47 PDT" name="putAPITest" finished-at="2022-09-19T19:25:47 PDT" duration-ms="24" status="PASS">
+        <test-method signature="putAPITest()[pri:0, instance:com.qa.tests.PutAPITest@61862a7f]" started-at="2022-11-10T11:02:12 PST" name="putAPITest" finished-at="2022-11-10T11:02:12 PST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putAPITest -->
       </class> <!-- com.qa.tests.PutAPITest -->
       <class name="com.qa.tests.DeleteAPITest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.DeleteAPITest@384ad17b]" started-at="2022-09-19T19:25:47 PDT" name="setUP" finished-at="2022-09-19T19:25:47 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.tests.DeleteAPITest@441772e]" started-at="2022-11-10T11:02:12 PST" name="setUP" finished-at="2022-11-10T11:02:12 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="deleteAPITest()[pri:0, instance:com.qa.tests.DeleteAPITest@384ad17b]" started-at="2022-09-19T19:25:47 PDT" name="deleteAPITest" finished-at="2022-09-19T19:25:47 PDT" duration-ms="27" status="PASS">
+        <test-method signature="deleteAPITest()[pri:0, instance:com.qa.tests.DeleteAPITest@441772e]" started-at="2022-11-10T11:02:12 PST" name="deleteAPITest" finished-at="2022-11-10T11:02:12 PST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAPITest -->
       </class> <!-- com.qa.tests.DeleteAPITest -->
       <class name="com.qa.tests.GetAPITest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@1ab3a8c8]" started-at="2022-09-19T19:25:47 PDT" name="setUp" finished-at="2022-09-19T19:25:47 PDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@333291e3]" started-at="2022-11-10T11:02:12 PST" name="setUp" finished-at="2022-11-10T11:02:12 PST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getAPITest()[pri:0, instance:com.qa.tests.GetAPITest@1ab3a8c8]" started-at="2022-09-19T19:25:47 PDT" name="getAPITest" finished-at="2022-09-19T19:25:47 PDT" duration-ms="280" status="PASS">
+        <test-method signature="getAPITest()[pri:0, instance:com.qa.tests.GetAPITest@333291e3]" started-at="2022-11-10T11:02:12 PST" name="getAPITest" finished-at="2022-11-10T11:02:12 PST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPITest -->

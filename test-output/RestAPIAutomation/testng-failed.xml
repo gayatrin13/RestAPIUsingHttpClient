@@ -3,12 +3,18 @@
 <suite name="Failed suite [RestAPIAutomation]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="APIAutomationUsingHTTPClient(failed)">
     <classes>
-      <class name="com.qa.tests.GetAPITest">
+      <class name="com.qa.tests.PutAPITest">
         <methods>
-          <include name="getAPITest"/>
-          <include name="setUp"/>
+          <include name="setUP"/>
+          <include name="putAPITest"/>
         </methods>
-      </class> <!-- com.qa.tests.GetAPITest -->
+      </class> <!-- com.qa.tests.PutAPITest -->
+      <class name="com.qa.tests.DeleteAPITest">
+        <methods>
+          <include name="setUP"/>
+          <include name="deleteAPITest"/>
+        </methods>
+      </class> <!-- com.qa.tests.DeleteAPITest -->
     </classes>
   </test> <!-- APIAutomationUsingHTTPClient(failed) -->
 </suite> <!-- Failed suite [RestAPIAutomation] -->
